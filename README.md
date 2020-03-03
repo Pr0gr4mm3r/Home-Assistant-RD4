@@ -39,3 +39,9 @@ title: Afval naar buiten?
 ## Verdere mogelijkheden
 
 Je zou nu een automation kunnen maken. Tussen 0:00 en 3:00 's nachts is de link waarop de informatie van RD4 staat niet beschikbaar. Zelf heb ik een automation staan tussen 0:00 en 4:00. Springt een sensor op 'JA', dan stuurt HA mij een appje. Bij het opstaan zal ik altijd herinnerd worden en nooit meer afval vergeten buiten te zetten!
+
+## Donatie
+
+Tevreden? Beloon mijn werk via bitcoin! Elke bijdrage is welkom, hoe klein dan ook :-)
+
+**BTC adres:** 1NVpQZJjvwi4sRKvZWg2zBbxEBAwfgZ8nf
