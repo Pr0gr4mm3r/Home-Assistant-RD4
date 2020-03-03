@@ -63,4 +63,4 @@ Vind je dit een leuk project? Beloon mijn werk via bitcoin! Elke bijdrage wordt 
 
 Do you like this project? Every (small) donation to my bitcoin address is appreciated! :-)
 
-**BTC address:** 1NVpQZJjvwi4sRKvZWg2zBbxEBAwfgZ8nf
+**BTC address:** [1NVpQZJjvwi4sRKvZWg2zBbxEBAwfgZ8nf](https://www.blockchain.com/btc/address/1NVpQZJjvwi4sRKvZWg2zBbxEBAwfgZ8nf)
