@@ -1,0 +1,65 @@
+sensor:
+  - platform: rest
+    resource: https://rd4.syzygy.eu/1234AA/56
+    name: GFT
+    value_template: >-
+      {% set datum_vandaag = now().strftime("%d-%m-%Y") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,53) %}
+        {% if value_json["GFT"][i] == datum_vandaag %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  - platform: rest
+    resource: https://rd4.syzygy.eu/1234AA/56
+    name: Restafval
+    value_template: >-
+      {% set datum_vandaag = now().strftime("%d-%m-%Y") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,26) %}
+        {% if value_json["REST"][i] == datum_vandaag %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  - platform: rest
+    resource: https://rd4.syzygy.eu/1234AA/56
+    name: Overig
+    value_template: >-
+      {% set datum_vandaag = now().strftime("%d-%m-%Y") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,5) %}
+        {% if value_json["OVERIG"][i] == datum_vandaag %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  - platform: rest
+    resource: https://rd4.syzygy.eu/1234AA/56
+    name: Papier
+    value_template: >-
+      {% set datum_vandaag = now().strftime("%d-%m-%Y") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,12) %}
+        {% if value_json["PAPIER"][i] == datum_vandaag %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
