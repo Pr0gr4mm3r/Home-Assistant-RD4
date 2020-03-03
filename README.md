@@ -20,20 +20,17 @@ There are 4 sensors:
 
 ## Installatie / Instalation
 
-**Stap 1 / Step 1: **
-
+**Stap 1 / Step 1:**
 Kopieer en plak de code uit gedeelte-configuration.yaml in je eigen configuration.yaml. Belangrijk is om je eigen postcode en huisnummer in te vullen bij resource: https://rd4.syzygy.eu/1234AA/56. Vervang 1234AA door je eigen postcode en 56 door je eigen huisnummer. Doe dit voor alle 4 links in de code.
 
 Copy / paste the code from gedeelte-configuration.yaml into your own configuration.yaml. It's important to fill in your own postal code and housenumber at resource: https://rd4.syzygy.eu/1234AA/56. Replace 1234AA by your own postal code and 56 by your own housenumber. You have to do this for all the (4) links in the code.
 
-**Stap 2 / Step 2: **
-
+**Stap 2 / Step 2:**
 Check of je config valid is en herstart Home Assistant.
 
 Check if your config is valid and reboot Home Assistant.
 
-**Stap 3 / Step 3: **
-
+**Stap 3 / Step 3:**
 Maak een "oogopslag kaart" (of glance card, in het Engels) aan via de GUI. Switch naar de code-editor en plak de volgende code:
 
 Create a glance card using the GUI. Switch to the code-editor and paste the following code:
