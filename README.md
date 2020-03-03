@@ -1,5 +1,7 @@
 # Home-Assistant-RD4
 
+![HA-Glance](https://github.com/Pr0gr4mm3r/Home-Assistant-RD4/blob/master/HA-glance.png)
+
 ## Uitleg
 
 Met deze integratie kun je zien wanneer het afval door RD4 opgehaald wordt. 
