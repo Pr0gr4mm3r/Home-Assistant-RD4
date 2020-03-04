@@ -64,3 +64,4 @@ Vind je dit een leuk project? Beloon mijn werk via bitcoin! Elke bijdrage wordt 
 Do you like this project? Every (small) donation to my bitcoin address is appreciated! :-)
 
 **BTC address:** [1NVpQZJjvwi4sRKvZWg2zBbxEBAwfgZ8nf](https://www.blockchain.com/btc/address/1NVpQZJjvwi4sRKvZWg2zBbxEBAwfgZ8nf)
+**PayPal link:** [Donate now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C6SPN5DTDXV9L&source=url)
